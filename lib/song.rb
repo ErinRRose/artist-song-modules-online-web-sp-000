@@ -9,9 +9,9 @@ class Song
 
   @@songs = []
 
-  def initialize
-    @@songs << self
-  end
+#  def initialize
+  #  @@songs << self
+#  end
 
   def self.all
     @@songs
@@ -20,7 +20,4 @@ class Song
   def artist=(artist)
     @artist = artist
   end
-
-#  def to_param
-  ##end
 end
