@@ -9,10 +9,10 @@ class Artist
 
   @@artists = []
 
-  def initialize
-    @@artists << self
-    @songs = []
-  end
+  #def initialize
+  #  @@artists << self
+  #  @songs = []
+#  end
 
   def self.all
     @@artists
@@ -26,8 +26,4 @@ class Artist
   def add_songs(songs)
     songs.each { |song| add_song(song) }
   end
-
-  #def to_param
-  #  name.downcase.gsub(' ', '-')
-#  end
 end
